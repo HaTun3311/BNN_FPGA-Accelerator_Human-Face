@@ -9,19 +9,16 @@ import matplotlib.pyplot as plt <br>
 # 3. Read Dataset
 - load dataset: <br>
 data = np.load('../input/orlfaces/ORL_faces.npz') <br>
-- load the "Train Images"
-x_train = data['trainX']
-#normalize every image
-x_train = np.array(x_train,dtype='float32')/255
-
-x_test = data['testX']
-x_test = np.array(x_test,dtype='float32')/255
-
-# load the Label of Images
-y_train= data['trainY']
-y_test= data['testY']
-
-# show the train and test Data format
-print('x_train : {}'.format(x_train[:]))
-print('Y-train shape: {}'.format(y_train))
-print('x_test shape: {}'.format(x_test.shape))
+- load the "Train Images" <br>
+x_train = data['trainX'] <br>
+- normalize every image <br>
+x_train = np.array(x_train,dtype='float32')/255 <br>
+x_test = data['testX'] <br>
+x_test = np.array(x_test,dtype='float32')/255 <br>
+- load the Label of Images <br>
+y_train= data['trainY'] <br>
+y_test= data['testY'] <br>
+- show the train and test Data format <br>
+print('x_train : {}'.format(x_train[:])) <br> 
+print('Y-train shape: {}'.format(y_train)) <br>
+print('x_test shape: {}'.format(x_test.shape)) <br>
