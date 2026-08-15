@@ -2,15 +2,14 @@
 Dataset Details: ORL face database composed of 400 images of size 112 x 92. There are 40 people, 10 images per person. The images were taken at different times, lighting and facial expressions. The faces are in an upright position in frontal view, with a slight left-right rotation. Link to the Dataset: https://www.dropbox.com/s/i7uzp5yxk7wruva/ORL_faces.npz?dl=0
 
 # 2. Setup Library
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
+import numpy as np <br>
+import pandas as pd <br>
+import matplotlib.pyplot as plt <br>
 
 # 3. Read Dataset
-#load dataset
-data = np.load('../input/orlfaces/ORL_faces.npz') 
-
-# load the "Train Images"
+- load dataset: <br>
+data = np.load('../input/orlfaces/ORL_faces.npz') <br>
+- load the "Train Images"
 x_train = data['trainX']
 #normalize every image
 x_train = np.array(x_train,dtype='float32')/255
