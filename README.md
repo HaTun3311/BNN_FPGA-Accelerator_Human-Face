@@ -1,4 +1,4 @@
-# Tên đề tài: Binarized Neural Network 
+# Tên đề tài: Binarized Neural Network - FPGA Accelerator
 ## Danh sách file
 | File | Vai trò |
 |---|---|
