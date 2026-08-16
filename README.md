@@ -1,4 +1,5 @@
 # Tên đề tài: Binarized Neural Network - FPGA Accelerator
+## FPGA sử dụng:  Xilinx Spartan 6 AX309
 ## Danh sách file
 | File | Vai trò |
 |---|---|
